@@ -6,7 +6,7 @@
 以下を実現することを目標に，2回の講習は進んでいきます．
 
 1. DockerをJetson Nano上で動作させ，コンテナを立ち上げる．
-2. 作業PCで開いたVScodeからJetson Nano上のDockerコンテナにアクセスし，Jetson Nanoを直接操作することなく，ソースコードの編集，実行を行う環境を構築する． 
+1. 作業PCで開いたVScodeからJetson Nano上のDockerコンテナにアクセスし，Jetson Nanoを直接操作することなく，ソースコードの編集，実行を行う環境を構築する． 
 
 
 そもそもなぜこんなことをする必要があるかを説明します．
@@ -218,6 +218,7 @@ VScodeはそのまま使うとローカルに保存されたディレクトリ�
 の3つからなる拡張機能で，今回はこのうちの`Remote-SSH`を使うことで，Jetsonにアクセスしたいと思います．
 
 ### Remote-SSH
+参考資料:https://code.visualstudio.com/docs/remote/ssh 
 VScodeを開いてください．
 
 サイドバーのアイコンで，四角形が４つ並んでいるアイコンを選択してください．
