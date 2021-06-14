@@ -177,7 +177,7 @@ $ mkdir ~/docker_tutorial
 $ cd docker_tutorial
 $ touch Dockerfile
 ```
-
+ファイルを作成できました．ここで，`Dockerfile`に上記FROMから始まる内容をCMDの行まで全て書き込んでください．
 
 ### DockerHub
 https://hub.docker.com/
