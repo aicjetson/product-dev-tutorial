@@ -170,6 +170,14 @@ WORKDIR /usr/app
 CMD ["bash"]
 ```
 
+それでは，実際にDockerfileを作成しましょう．
+VScode でJetsonにSSH接続してください.
+```
+$ mkdir ~/docker_tutorial
+$ cd docker_tutorial
+$ touch Dockerfile
+```
+
 
 ### DockerHub
 https://hub.docker.com/
